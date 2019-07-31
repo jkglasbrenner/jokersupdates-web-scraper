@@ -12,7 +12,8 @@ url_github = "https://github.com/jkglasbrenner/jokersupdates-web-scraper"
 description = "A web scraper for the Joker's Updates forums."
 
 dependencies = [
-    "beautifulsoup4>=4.7.1" "cerberus>=1.3.1",
+    "beautifulsoup4>=4.7.1",
+    "cerberus>=1.3.1",
     "lxml>=4.3.4",
     "numpy>=1.16.4",
     "python-dotenv>=0.10.3",
