@@ -1,0 +1,39 @@
+---
+name: jokersupdates
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - autopep8=1.4.4
+  - beautifulsoup4=4.7.1
+  - black=19.3b0
+  - cerberus=1.3.1
+  - entrypoints=0.3
+  - flake8=3.7.7
+  - ipython=7.6.1
+  - isort=4.3.21
+  - jupyter=1.0.0
+  - jupyterlab=0.35.6
+  - jupyterlab_code_formatter=0.2.3
+  - lxml=4.3.4
+  - mypy=0.720
+  - nodejs=11.14.0
+  - numpy=1.16.4
+  - pip=19.2.1
+  - pre_commit=1.17.0
+  - pydocstyle=3.0.0
+  - pytest=5.0.1
+  - pytest-runner=5.1
+  - pytoml=0.1.21
+  - sphinx=2.1.2
+  - sphinx-autodoc-typehints=1.6.0
+  - sphinx_rtd_theme=0.4.3
+  - python=3.7.3
+  - python-dotenv=0.10.3
+  - pytz=2019.1
+  - selenium=3.141.0
+  - pip:
+    - -e .
+    - flake8-bugbear==19.3.0
+    - grip==4.5.2
+    - seed-isort-config==1.9.2
